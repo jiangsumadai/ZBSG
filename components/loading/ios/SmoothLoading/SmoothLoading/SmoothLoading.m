@@ -1,8 +1,13 @@
-#import <React/RCTBridgeModule.h>
-#import "HDHint.h"
+//
+//  SmoothLoading.m
+//  SmoothLoading
+//
+//  Created by 周尧 on 2017/10/18.
+//  Copyright © 2017年 edward. All rights reserved.
+//
 
-@interface SmoothLoading : NSObject <RCTBridgeModule>
-@end
+#import "SmoothLoading.h"
+#import "HDHint.h"
 
 @implementation SmoothLoading
 
