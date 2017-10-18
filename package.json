@@ -1,6 +1,6 @@
 {
   "name": "zbsg",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "zbsg-components",
   "main": "index.js",
   "scripts": {
