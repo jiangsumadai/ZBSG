@@ -25,8 +25,10 @@ public class SmoothLoading extends ReactContextBaseJavaModule {
      * 显示加载框
      */
     @ReactMethod
-    public void showLoading(String msg) {
-        progressDialog = ColaProgress.show(getReactApplicationContext().getCurrentActivity(), msg, true, false, null);
+    public void showLoading() {
+        if(progressDialog == null || progressDialog.isShowing() == false) {
+          progressDialog = ColaProgress.show(getReactApplicationContext().getCurrentActivity(), "", true, false, null);
+        }
     }
 
     /**
